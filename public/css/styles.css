@@ -1,1 +1,43 @@
 /* --------- GENERAL --------- */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    height: 100vh;
+    background-image: url('../img/playing.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --------- FOOTER --------- */
+
+footer {
+    display: inherit;
+    flex-direction: column;
+    background-color: rgb(38, 49, 45);
+    color: #bbbbbb;
+    padding: 2em 4em;
+    align-items: center;
+}
+
+footer img {
+    width: 24px;
+}
+
+.logos {
+    display: inherit;
+    width: 20vw;
+    min-width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1em 0 1.5em;
+}
+
+#copyright {
+    margin-bottom: .5em;
+}

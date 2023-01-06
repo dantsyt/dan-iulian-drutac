@@ -21,41 +21,51 @@ app.use(express.static(publicPath));
 // Pages setup
 app.get('/', (req, res) => {
     res.render('index', {
+        headTitle: 'Dan-Iulian Druțac – Violinist',
         title: 'Dan-Iulian Druțac'
     });
 });
 
 app.get('/bio', (req, res) => {
     res.render('bio', {
-        title: 'Bio'
+        headTitle: 'Bio – Dan-Iulian Druțac',
+        title: 'Bio',
+        message: 'Full Biography'
     });
 });
 
 app.get('/audio', (req, res) => {
     res.render('audio', {
-        title: 'Audio recordings'
+        headTitle: 'Audio – Dan-Iulian Druțac',
+        title: 'Audio recordings',
+        message: 'Audio content here'
     });
 });
 
 app.get('/video', (req, res) => {
     res.render('video', {
-        title: 'Video recordings'
+        headTitle: 'Video – Dan-Iulian Druțac',
+        title: 'Video recordings',
+        message: 'Video content here'
     });
 });
 
 app.get('/contact', (req, res) => {
     res.render('contact', {
-        title: 'Contact'
+        headTitle: 'Contact – Dan-Iulian Druțac',
+        title: 'Contact',
+        message: 'Contact here'
     });
 });
 
 app.get('*', (req, res) => {
     res.render('404', {
+        headTitle: '404 – Dan-Iulian Druțac',
         title: '404',
         message: 'Page not found :('
     });
 });
 
 app.listen(port, () => {
-    console.log(`LISTENING on ${port}:`);
+    console.log(`LISTENING on ${port}: `);
 });

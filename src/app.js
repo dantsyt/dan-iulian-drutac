@@ -22,7 +22,7 @@ app.use(express.static(publicPath));
 app.get('/', (req, res) => {
     res.render('index', {
         headTitle: 'Dan-Iulian Druțac – Violinist',
-        title: 'Home'
+        title: ''
     });
 });
 

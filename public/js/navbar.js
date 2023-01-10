@@ -37,7 +37,7 @@ menu.addEventListener('click', () => {
         navbar.style.transition = 'transform 1s';
         navbar.style.transform = `translateX(0px)`;
     } else if (clickCount % 2 === 0) {
-        navbar.style.transition = 'transform 2s';
+        navbar.style.transition = 'transform 1s';
         navbar.style.transform = `translateX(${window.innerWidth}px)`;
     }
 })

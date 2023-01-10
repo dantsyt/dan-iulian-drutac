@@ -75,7 +75,7 @@ h2 {
 
 #bio {
     font-size: 1.5em;
-    font-weight: 600;
+    /*     font-weight: 600; */
     letter-spacing: 0.2px;
     background-color: #d2d2d2ed;
     margin: 8px 0px 0px;

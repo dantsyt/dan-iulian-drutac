@@ -3,11 +3,12 @@
 body {
     display: flex;
     flex-direction: column;
+    /*     height: 125vh; */
 }
 
 main {
-    flex-grow: 1;
-    height: 100vh;
+    /*     flex-grow: 1; */
+    /*     height: 100vh; */
     background-image: url('../img/playing.webp');
     background-position: center;
     background-repeat: no-repeat;

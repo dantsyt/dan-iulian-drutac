@@ -7,12 +7,12 @@ body {
 
 main {
     flex-grow: 1;
-    width: 100vw;
     height: 100vh;
     background-image: url('../img/playing.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: scroll;
 }
 
 /* --------- HEADER --------- */
@@ -41,7 +41,6 @@ h2 {
 .header-container {
     display: flex;
     flex-direction: row;
-    /*     justify-content: space-around; */
 }
 
 .title-menu {
@@ -74,10 +73,25 @@ h2 {
     background-color: lavender;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
+/* --------- BIO --------- */
+
+#bio {
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    background-color: #d2d2d2ed;
+    margin: 8px 0px 0px;
+    padding: 20px;
+}
+
+.bio {
+    display: block;
+    padding-bottom: 1em;
+}
+
+.bioPics {
     width: 100%;
+    padding: 1em 0 2em;
 }
 
 /* --------- FOOTER --------- */

@@ -30,7 +30,6 @@ app.get('/bio', (req, res) => {
     res.render('bio', {
         headTitle: 'Bio – Dan-Iulian Druțac',
         title: 'Bio',
-        message: 'Full Biography'
     });
 });
 

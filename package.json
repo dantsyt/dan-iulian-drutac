@@ -2,16 +2,16 @@
   "name": "drutac",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dantsyt/dan-iulian-drutac.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "dantsyt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dantsyt/dan-iulian-drutac/issues"

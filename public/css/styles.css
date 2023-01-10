@@ -74,8 +74,9 @@ h2 {
 /* --------- BIO --------- */
 
 #bio {
-    font-size: 1.5em;
-    /*     font-weight: 600; */
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
     letter-spacing: 0.2px;
     background-color: #d2d2d2ed;
     margin: 8px 0px 0px;
@@ -135,10 +136,12 @@ h4 {
 footer {
     display: inherit;
     flex-direction: column;
-    background-color: rgb(38, 49, 45);
+    background-color: rgb(17, 17, 17);
     color: #bbbbbb;
-    padding: 2em 4em;
+    margin-top: 10px;
+    padding: 1.5em 4em 2em;
     align-items: center;
+    box-shadow: 0px -3px 2px 8px rgb(17 17 17);
 }
 
 footer img {
@@ -148,10 +151,10 @@ footer img {
 .logos {
     display: inherit;
     width: 20vw;
-    min-width: 200px;
+    min-width: 185px;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1em 0 1.5em;
+    margin: 1em 0 1em;
 }
 
 #copyright {

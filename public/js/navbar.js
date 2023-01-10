@@ -14,7 +14,7 @@ $(document).ready(() => {
 navbar.style.transform = `translateX(${window.innerWidth}px)`;
 
 if (mediaQueryList_mw428.matches) {
-    navbar.style.paddingTop = `${navbarX * 2}px`;
+    navbar.style.paddingTop = `${navbarX}px`;
 } else {
     navbar.style.paddingTop = `${navbarX}px`;
 };
